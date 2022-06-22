@@ -1,0 +1,50 @@
+*{
+    color: rgb(47, 0, 255);
+}
+
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 90px;
+}
+h2{
+    text-align: right;
+    text-decoration: underline;
+    font-style: inherit;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    text-align: center;
+    font-family: monospace;
+}
+
+span{
+    color: black;
+}
+
+p{
+    color: crimson;
+    line-height: 25px;
+}
+
+#p1{
+    font-style: italic;
+    color: black;
+}
+
+.unda{
+    text-decoration: underline;
+    color: coral;
+}
+
+ol>li{
+    font-size: 25px;
+}
+
+div>h3{
+    font-style: italic;
+}
