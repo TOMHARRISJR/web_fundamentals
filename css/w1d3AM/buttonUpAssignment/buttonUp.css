@@ -1,0 +1,31 @@
+#search{
+    width: 130px;
+    height: 25px;
+    color: #4c977e;
+    border-radius: 50px;
+    display: block;
+    border: 2px solid rgb(37, 161, 161);
+    margin:10px 40px;
+    }
+
+#plus{
+    border-radius: 50px;
+    display: block;
+    color: white;
+    background-color: #72e4be;
+    border-style: none;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 10px 40px;
+}
+
+#create{
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    width: 160px;
+    height: 30px;
+    box-shadow: 2px 2px 2px black ;
+    margin: 10px 40px;
+}
