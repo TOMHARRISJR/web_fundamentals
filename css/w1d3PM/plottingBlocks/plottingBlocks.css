@@ -2,7 +2,8 @@
     width: 2500px;
     height: 1300px;
     background-color: silver;
-    /* margin: 0px auto; */
+    margin: 0px auto;
+    
     
 }
 .top-nav {
@@ -45,11 +46,10 @@
     }
 #advertisement {
     height: 200px;
-    width: 900px;
+    width: 1490px;
     background-color: purple;
-    display: inline-block;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 100px;
 }
 
 

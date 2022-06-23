@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding:25px;
+}
+
+.row{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+#row1{
+    background-color: cornflowerblue;
+
+}
+
+#row2{
+    background-color: lightpink;
+    justify-content: space-evenly;
+}
+
+#row3{
+    background-color: white;
+
+}
+
+img{
+    height: 200px;
+    
+}
+
+body{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+}
