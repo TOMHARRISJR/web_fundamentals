@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    padding: 300px;
+}
+.mainBox{
+    background-color: white;
+    outline: 3px solid grey;
+}
+
+.box{
+    height: 400px;
+    width: 100px;
+    margin: auto 0px;
+}
+
+#thumbnail{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white 5px;
+    position:absolute;
+    top:80px;
+    left: 50px;
+    border: solid white 5px;
+    outline: 1px solid grey;
+    
+
+}
+
+.box2{
+    height: 150px;
+    background-color: aqua;
+    position: relative;
+    bottom: 400px; ;
+}
+
+.info{
+    position: relative;
+    bottom: 320px;
+    left: 60px;
+    font-family: cursive;
+    font-size: medium;
+}
+
+#marker{
+    height: 20px;
+}
+
+#cog{
+    height: 20px;
+}
+
+#button{
+    font-size: 20px;
+}
