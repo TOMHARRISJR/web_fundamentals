@@ -28,3 +28,13 @@ function cookieMonster(){
     var element=document.querySelector("#cookieBox");
     element.remove();
 }
+
+function incrementLike(id){
+    console.log("liking",id);
+    var element = document.querySelector(id);
+    console.log("element looks like this", element);
+    let likeCount = Number(element.innerText);
+    console.log(likeCount);
+    likeCount+=1;
+    element.innerText = likeCount;
+}

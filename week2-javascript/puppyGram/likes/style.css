@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+#main{
+    border: 3px solid black;
+    width: 350px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 55px;
+    }
+
+#main span{
+    /* padding:10px 20px; */
+    margin-right: 10px;
+    /* outline: 2px solid red; */
+    
+}
+
+#main p{
+    padding: 5px 20px;
+}
+
+button{
+    background-color: goldenrod ;
+    box-shadow: 3px 3px 3px;
+    width: 45px;
+
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* #top>p{
+    margin-left: 10px;
+} */
+
+#num{
+    margin-left:10px;
+}

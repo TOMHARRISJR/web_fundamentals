@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 40px;
+}
+
+#header{
+    height: 100px;
+    /* border-bottom: 2px solid black; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#logo{
+    height: 60px;
+}
+
+#user{
+    height: 60px;
+}
+
+#headerLeft, #headerRight{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: comic sans-serif;
+}
+
+#headerRight > span{
+    font-size: 1.8rem;
+}
+
+#navBar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    text-decoration: underline;
+    border-bottom: 2px solid black;
+}
+
+#navBar input{
+    height: 30px;
+    width: 210px;
+    border-radius: 10px;
+}
+
+#searchLogo{
+    height: 20px;
+    position: relative;
+    right: 60px;
+    top: 2.5px;
+}
+
+#slogan{
+    text-align: center;
+    font-style: italic;
+    padding: 15px 0px;
+    font-size: 2.5rem;
+}
+
+#players{
+    height: 200px;
+    background-color: coral;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.player>img{
+    height: 100px;
+}
+
+#player{
+    text-align: center;
+}
+
+#main{
+    
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#colLeft, #colRight{
+    /* border: 2px solid black ; */
+    /* height: 200px; */
+}
+
+#colLeft{
+    flex: 1;
+}
+
+#colRight{
+    flex: 2;
+    display: flex;
+}
+
+#try{
+    background-color: coral;
+    padding: 10px;
+    font-size: 1.4rem;
+    border-radius: 15px;
+    gap: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+#try>img{
+    height: 40px;
+    width: 60px;
+
+}
+
+#colLeft>img{
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+#learn{
+    background-color: coral;
+    padding: 80px 10px;
+    text-align: center;
+    font-size: 1.rem;
+
+}
+
+#colRight>img{
+    height: 300px;
+    width: 200px;
+}
+
+#learn>button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: burlywood;
+    margin-top:10px;
+    box-shadow: 3px 3px 3px;
+}
+
+#termsOfService{
+    background-color: grey;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 20ox;
+}
+#termsOfService>h4{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#cookieBox{
+    border: 2px solid black;
+    background-color: goldenrod;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#cookieBox>img{
+    height: 80px;
+}
+
+#cookieBox>button{
+    background-color: blue;
+    color: white;
+    padding: 5px 30px;
+    box-shadow: 3px 3px 3px;
+}
