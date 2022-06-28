@@ -7,7 +7,3 @@ function likes(num){
     likeCount+=1;
     element.innerText=likeCount
 }
-
-function simple(){
-
-}
