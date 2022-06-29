@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    padding: 0px 110px 
+}
+
+#navBar{
+    height: 50px;
+    width: 500px;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+#feed{
+    width: 500px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#main{
+    display: flex;
+    margin-top: 10px;
+}
+
+#colLeft{
+    border: 3px solid black;                                  
+    flex: 1;
+    margin-right: 40px;
+    height: 250px;
+
+    
+    
+}
+
+#profPic{
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    left: 35px;
+    top: 30px;
+}
+
+#colRight{
+    flex: 2;
+    
+    
+
+
+}
+
+#avatar{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 50px;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.neil{
+    border: 3px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+    
+    
+    
+    
+
+#main span{
+    /* padding:10px 20px; */
+    margin-right: 10px;
+    /* outline: 2px solid red; */
+    
+}
+
+#main p{
+    padding: 5px 20px;
+    font-size: .8rem;
+}
+
+button{
+    background-color: goldenrod ;
+    box-shadow: 3px 3px 3px;
+    width: 45px;
+    
+
+}
+
+#top,#middle,#bottom{
+    display: flex;
+    align-items: center;
+}
+
+#num{
+    margin-left:10px;
+}
+
+/* #nichole{
+    margin-right: 0px;
+} */
+
+.num{
+    margin-left: 30px;
+}
+
+#num1{
+    margin-left: 24px;
+}
+
+#middle> button{
+    position: relative;
+    left: 15px;
+}
+
+#bottom> button{
+    position: relative;
+    left: 15px;
+}
