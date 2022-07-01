@@ -38,3 +38,8 @@ function incrementLike(id){
     likeCount+=1;
     element.innerText = likeCount;
 }
+
+function alertMesaageFromInput(){
+    console.log("connected");
+    alert("hello")
+}
